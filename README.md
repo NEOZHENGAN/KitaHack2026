@@ -32,3 +32,24 @@ SafeStride is a proactive, AI-powered tactical companion app designed for runner
 ```bash
 git clone [https://github.com/NEOZHENGAN/KitaHack2026.git](https://github.com/NEOZHENGAN/KitaHack2026.git)
 cd safestride
+
+2. Install Flutter dependencies
+
+Bash
+flutter pub get
+3. Set up Environment Variables (Crucial Step)
+
+In the root directory of the project, create a new file named exactly .env.
+
+Add your Gemini API key to this file like so:
+
+Plaintext
+GEMINI_API_KEY=your_actual_api_key_here
+4. Run the App
+
+Bash
+flutter run
+👥 Team
+Team Name: Basic Dragon
+
+Built with ❤️ for GDG KitaHack2026
