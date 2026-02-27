@@ -1,16 +1,34 @@
-# safestride
+# 🏃‍♂️ SafeStride - GDG KitaHack 2026 Submission
 
-A new Flutter project.
+SafeStride is a proactive, AI-powered tactical companion app designed for runners. It targets **SDG 3 (Good Health)**, **SDG 5 (Gender Equality)**, and **SDG 9 (Innovation & Infrastructure)** by transforming how we approach personal safety in outdoor environments.
 
-## Getting Started
+## 🌟 Key Features
+* **Proactive AI Scanner:** Uses **Google Gemini 2.5 Flash** to analyze the user's GPS context and environmental input (e.g., "dark street"), providing instant safety warnings.
+* **Real-time SOS Blackbox:** A 1-tap emergency broadcast system that logs critical survival data to **Firebase Cloud Firestore** and sends SMS alerts with **Google Maps** deep-links.
+* **High-Precision Tracker:** Optimized algorithms achieving 1.0-meter GPS sensitivity for live performance tracking.
+* **Offline First Aid Manual:** Graceful degradation design ensures vital medical protocols (e.g., Asthma steps, CPR) remain accessible even in data dead-zones.
+* **Cloud-Synced Prep:** Secure user authentication and gear checklist synchronization powered by **Firebase Auth**.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+* **Frontend UI:** Flutter & Dart
+* **AI Engine:** Google Generative AI (Gemini 2.5 Flash)
+* **Backend & Auth:** Firebase Authentication & Cloud Firestore
+* **Location Services:** Geolocator & Google Maps URL Schemes
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Setup Instructions (How to run this project)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Important Note for Judges:** For security reasons, the `.env` file containing the Google Gemini API Key has been excluded from this public repository. Please follow the steps below to run the app locally.
+
+### Prerequisites
+1.  Flutter SDK installed (Version 3.19.0 or higher).
+2.  A valid [Google Gemini API Key](https://aistudio.google.com/app/apikey).
+3.  A Firebase project configured for Android/iOS (google-services.json / GoogleService-Info.plist).
+
+### Installation Steps
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/NEOZHENGAN/KitaHack2026.git](https://github.com/NEOZHENGAN/KitaHack2026.git)
+cd safestride
