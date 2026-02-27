@@ -1,0 +1,3 @@
+flutter/ephemeral
+# Secret Environment Variables
+.env
