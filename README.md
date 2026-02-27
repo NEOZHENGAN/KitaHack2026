@@ -29,13 +29,12 @@ SafeStride is a proactive, AI-powered tactical companion app designed for runner
 ### Installation Steps
 
 **1. Clone the repository**
-```bash
+
 git clone [https://github.com/NEOZHENGAN/KitaHack2026.git](https://github.com/NEOZHENGAN/KitaHack2026.git)
 cd safestride
 
 2. Install Flutter dependencies
 
-Bash
 flutter pub get
 3. Set up Environment Variables (Crucial Step)
 
@@ -47,7 +46,6 @@ Plaintext
 GEMINI_API_KEY=your_actual_api_key_here
 4. Run the App
 
-Bash
 flutter run
 👥 Team
 Team Name: Basic Dragon
