@@ -36,6 +36,7 @@ cd safestride
 **2. Install Flutter dependencies**
 
 flutter pub get
+
 **3. Set up Environment Variables (Crucial Step)**
 
 In the root directory of the project, create a new file named exactly .env.
@@ -44,6 +45,7 @@ Add your Gemini API key to this file like so:
 
 Plaintext
 GEMINI_API_KEY=your_actual_api_key_here
+
 **4. Run the App**
 
 flutter run
