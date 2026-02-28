@@ -1,6 +1,6 @@
 # 🏃‍♂️ SafeStride - GDG KitaHack 2026 Submission
 
-SafeStride is a proactive, AI-powered tactical companion app designed for runners. It targets **SDG 3 (Good Health)**, **SDG 5 (Gender Equality)**, and **SDG 9 (Innovation & Infrastructure)** by transforming how we approach personal safety in outdoor environments.
+SafeStride is a proactive, AI-powered tactical companion app designed for runners. It targets **SDG 3 (Good Health)**, **SDG 5 (Gender Equality)**, **SDG 9 (Innovation & Infrastructure)** and **SDG 11 (Sustainable Cities and Communities)** by transforming how we approach personal safety in outdoor environments.
 
 ## 🌟 Key Features
 * **Proactive AI Scanner:** Uses **Google Gemini 2.5 Flash** to analyze the user's GPS context and environmental input (e.g., "dark street"), providing instant safety warnings.
